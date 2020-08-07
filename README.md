@@ -4,22 +4,22 @@ This is a hands-on, step-by-step tutorial on how to conduct a basic RNA sequence
 The picture above is the RNA seq workflow. The following steps in this document will go through this workflow.  
 
 #### Contents  
-1. [Download SRA sequences from NCBI](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#1-download-sra-sequences-from-ncbi)  
-  a. [Obtain accession numbers from search results](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#a-obtain-accession-numbers-from-search-results)  
-  b. [Obtain run accessions](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#b-obtain-run-accessions)  
-  c. [Download sequence data files using SRA Toolkit](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#c-download-sequence-data-files-using-sra-toolkit)  
-2. [RNA Seq Pipeline 1](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#2-rna-seq-pipeline-1)  
-  a. [Setting up](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#a-setting-up)  
-  b. [Alignment with STAR](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#b-alignment-with-star)  
-3. [RNA seq Analysis: Read count and DESeqDataSet](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#3-rna-seq-analysis-read-count-and-deseqdataset)  
-  a. [Start an interactive R Studio](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#a-start-an-interactive-r-studio)  
-  b. [Convert RNA-seq reads into counts](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#b-convert-rna-seq-reads-into-counts)  
+1. [Download SRA sequences from NCBI](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#1-download-sra-sequences-from-ncbi)  
+  a. [Obtain accession numbers from search results](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#a-obtain-accession-numbers-from-search-results)  
+  b. [Obtain run accessions](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#b-obtain-run-accessions)  
+  c. [Download sequence data files using SRA Toolkit](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#c-download-sequence-data-files-using-sra-toolkit)  
+2. [RNA Seq Pipeline 1](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#2-rna-seq-pipeline-1)  
+  a. [Setting up](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#a-setting-up)  
+  b. [Alignment with STAR](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#b-alignment-with-star)  
+3. [RNA seq Analysis: Read count and DESeqDataSet](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#3-rna-seq-analysis-read-count-and-deseqdataset)  
+  a. [Start an interactive R Studio](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#a-start-an-interactive-r-studio)  
+  b. [Convert RNA-seq reads into counts](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#b-convert-rna-seq-reads-into-counts)  
 4. Analysis  
-  4.1. [RNA seq Analysis: Differential Expression (DE) Analysis](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#41-rna-seq-analysis-differential-expression-de-analysis)  
-  4.2. [RNA seq Analysis: Down Stream Plots](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#42-rna-seq-analysis-down-stream-plots)  
-    - a. [Normalized count data for down-stream plots](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#a-normalized-count-data-for-down-stream-plots)  
-    - b. [Heatmap](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#b-heatmap)  
-    - c. [Volcano plot](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows/new/master?readme=1#c-volcano-plot)  
+  4.1. [RNA seq Analysis: Differential Expression (DE) Analysis](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#41-rna-seq-analysis-differential-expression-de-analysis)  
+  4.2. [RNA seq Analysis: Down Stream Plots](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#42-rna-seq-analysis-down-stream-plots)  
+    - a. [Normalized count data for down-stream plots](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#a-normalized-count-data-for-down-stream-plots)  
+    - b. [Heatmap](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#b-heatmap)  
+    - c. [Volcano plot](https://github.com/colachocolat/RNA-seq-Data-Analysis-Work-Flows#c-volcano-plot)  
 
 ## 1. Download SRA sequences from NCBI
 
